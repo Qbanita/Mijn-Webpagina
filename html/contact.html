@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn webpagina/ Contact</title>
+    <link rel="stylesheet" href="../Style/style.css">
+</head>
+<body>
+    <header>        
+        <ul>
+            <li class="home"><a href="../index.html">Home</a></li>
+            <li class="cv"><a href="mijncv.html">Mijn CV</a></li>
+            <li class="contact"><a href="contact.html"> CONTACT</a></li>
+        </ul>
+    </header>
+    <div class="inhoud">
+        <h1 class="formheader"> Contactformulier</h1>
+        <form action="https://formspree.io/f/xpzeozjy" method="post">
+            <input id="vnaam" type="text"  maxlength="60" placeholder="Uw voornaam">
+            <input id="achternaam" type="text" placeholder="Uw achternaam" maxlength="60">
+            <input type="tel"  placeholder="Uw telefoonnummer" maxlength="9999999999">
+            <input type="email" placeholder="Uw e-mailadres" >
+            <textarea name="bericht" id="bericht" maxlength="600" placeholder="600">Uw bericht</textarea>
+            <button>Verzend</button>
+        </form>
+    </div>
+
+    <footer>
+        <div >
+            <p class="copyrighttekst">© Copyright 2023 AG Music Art & Education</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
